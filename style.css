@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap');
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #656565;
+    text-align: left;
+    background-color: aliceblue
+}
+/* Top Header */
+.fab{
+    color: #4A7370;
+    ;
+}
+.fa{
+color: grey;
+}
+.container-fluid{
+   background: #F1FAF9;
+   padding-top: 1rem !important;
+   padding-bottom: 1rem !important;
+}
+.text{
+    font-family: "Poppins";
+    font-weight: 700;
+    color: white;
+}
+
+.navbar{
+  background-color:#254f4c ;
+  position: absolute;
+  width: 80%;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  text-align: center;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+.footer{
+    background:#254f4c;
+    color: white;
+    font-weight: 3rem;
+}
+.collapse .navbar-nav .nav-item{
+    color: white;
+    font-weight:600; /*semi bold*/
+}
+.collapse .navbar-nav .nav-item:hover{
+    font-size: 17px;
+    color: white;
+}
+.d-flex .btn{
+    color:white ;
+}
+/* <!-- Caurosel Font --> */
+.text-white{
+    font-weight: 600 !important;
+   
+}
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(10, 10, 10, 0.397);
+}
+.p-3 .btn{
+    background-color:#254f4c;
+    outline: #254f4c;
+}
+.p-3 .btn:hover{
+    background: #102726;
+}
+
+/* page header */ 
+/* index.html */
+.page-header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(img/about.jpg);
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+}
+.service-header{
+    background-image: linear-gradient(rgba(22, 22, 22, 0.527),rgba(20, 20, 20, 0.5)) , url(img/service.jpg);
+}
+.packages-header{
+    background-image: linear-gradient(rgba(22, 22, 22, 0.527),rgba(20, 20, 20, 0.5)) , url(img/packages.jpg);
+} 
+.contactus-header{
+    background-image: linear-gradient(rgba(22, 22, 22, 0.527),rgba(20, 20, 20, 0.5)) , url(img/contactus.jpg);
+}
+.bg-registration{
+    background-image: linear-gradient(rgba(22, 22, 22, 0.527),rgba(20, 20, 20, 0.5)) , url(img/e.jpg);
+}
+.shadow{
+    background: #254f4c;
+    top: 50%;
+    position: relative;
+    margin-top: -60px !important;
+    z-index: 1;
+    width: 80%;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+}
+.col-md-2 .btn{
+    background-color: #F3F3F3;
+    color: rgba(10, 9, 9, 0.911);
+    font-weight: 600; /*semi bold*/
+}
+.col-md-2 .btn:hover{
+    background-color: #c7c2c2;
+    border-color: #cddbdb
+    
+
+}
+.mb-3{
+    font-weight: 700;
+    color: black;
+}
+.about-text .btn{
+    background-color: #254f4c;
+    color: white;
+}
+.about-text .btn:hover{
+    background: #102726;
+    border-color: #102726
+}
+.flex-shrink-0{
+    background: #254f4c;
+}
+
+h1, h5{
+    font-weight: 600;
+    color: black;
+}
+.text-center{
+    font-weight:bold
+}
+h6{
+    color: #254f4c;
+    font-weight: bolder;
+}
+.team-img {
+    outline: .3rem solid #254f4c;
+      outline-offset: -0.8rem;
+}
+.team-img img:hover{
+    background-color: rgba(10, 10, 10, 0.397);
+  transform:scale(1.05);
+  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+}
+.team-item{
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    outline-offset: 2px;
+    outline: 1.2rem ;
+}
+.service{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.service-item i {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #254f4c;
+    background: #FFFFFF;
+    color: #254f4c;
+    transition: .5s;
+}
+.service-item i:hover{
+    background-color: #254f4c;
+    color: #FFFFFF;
+
+}
+
+p{
+    font-weight: light;
+}
+.rounded-circle{
+    display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+
+.package{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.fa{
+    color: #254f4c;
+}
+a:hover{
+    color: #53b8b3;
+    text-decoration: none;
+}
+.h5{
+    font-weight: bold;
+    color: black;
+}
+.destination-overlay {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: .5s;
+    z-index: 1;
+}
+.destination-overlay:hover {
+    transform: scale(1.08);
+}
+.contact{
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+}
+.container .form-label-group{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: white;
+}
+.container .form-label-group .form-control{
+    border: 2px solid #9ea1a1;
+    color:  rgba(38, 110, 107, 0.973);
+    font-size: 1.0em;
+
+}
+.container .form-label-group .form-control:focus{
+    border: 3px solid #FFE4B5;
+}
+
+.container .buttons .btn{
+    background-color: aliceblue;
+    color: rgb(7, 7, 7);
+    font-size: 1.0em;
+    font-family: cursive;
+}
+.container .buttons .btn:hover{
+    background-color:#aee6e2;
+    color: black;
+    font-size: 1.1em;
+
+}
+.form-signin{
+    width: 200%;
+  max-width: 700px;
+  margin: 60px auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(img/contact.jpg);
+  min-height: 300px;
+  padding: 40px;
+}
+.texts{
+    color: #112524;
+    font-weight: bolder;
+}
+.list-inline .fa-check{
+    color: #112524;
+}
+.card-header{
+    background: #1c3b39;
+}
+.btn-block{
+    background: #1c3b39;
+    color: white;
+}
+.btn-block:hover{
+    background: #050a0a;
+    color: white;
+}
+.index{
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+}
+.blog-date {
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    top: 30px;
+    left: -15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #7AB730;
+    justify-content: center;
+}
+.package-item:hover{
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+}
+.service-item:hover{
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+}
